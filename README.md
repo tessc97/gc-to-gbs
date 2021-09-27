@@ -56,20 +56,25 @@ Some other documentations and threads also mention 470uF caps. I have not read i
 ### PAL Gamecube (100R on GBS Sync to GND)
 Soldered jumpers:
 * JP3 for Sync on Composite
-* 470 Ohm resistor on R5
 * JP6 for TTL level VSync (or no VSync at all)
+
 Components:
+* 470 Ohm resistor on R5
 * 220uF capacitors on C4, C5 and C6
 
 ### NESRGB configured for TTL (no 100R on GBS Sync to GND)
+Soldered jumpers:
 * JP4 for TTL level CSync from MultiAV Pin 3
 * JP7, JP8 and JP9 because NESRGB has built-in 220uF caps
 
 ### PAL SNES (100R on GBS Sync to GND)
+Soldered jumpers:
 * JP2 for Sync on Luma
+* JP7, JP8 and JP9 to bypass the capacitors
+
+Components:
 * 470 Ohm resistor on R5
 * 75 Ohm resistors on R3, R7 and R8 for 75 Ohm Termination
-* JP7, JP8 and JP9
 
 # Required components
 These are "optional" if your console already has CSync and you don't need VSync.
