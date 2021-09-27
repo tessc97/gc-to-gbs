@@ -1,0 +1,5 @@
+gerber
+*.csv
+*.xml
+*-bak
+*-cache
